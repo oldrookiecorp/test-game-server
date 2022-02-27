@@ -1,0 +1,11 @@
+[2/26/2022, 1:50:06 PM] @colyseus/loadtest
+endpoint: ws://localhost:2567
+roomName: lobby_room
+numClients: 50
+scriptFile: /Users/kihongpark/dev/js/gameServer/unity-demo-mmo/Server/loadtest/example.ts
+logLevel: all
+output: /Users/kihongpark/dev/js/gameServer/unity-demo-mmo/Server/loadtest.log
+[2/27/2022, 3:45:23 PM] Finished. Summary:
+Successful connections: 50
+Failed connections: 0
+Total errors: 0

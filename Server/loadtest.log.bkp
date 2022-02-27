@@ -1,0 +1,7 @@
+[2/26/2022, 1:49:51 PM] @colyseus/loadtest
+endpoint: ws://localhost:2567
+roomName: lobby_room
+numClients: 50
+scriptFile: /Users/kihongpark/dev/js/gameServer/unity-demo-mmo/Server/loadtest/example.ts
+logLevel: all
+output: /Users/kihongpark/dev/js/gameServer/unity-demo-mmo/Server/loadtest.log
