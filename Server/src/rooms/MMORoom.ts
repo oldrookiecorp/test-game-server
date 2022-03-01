@@ -143,7 +143,7 @@ export class MMORoom extends Room<RoomState> {
       }
 
       logger.info("let's wait for reconnection for client: " + client.id);
-      const newClient = await this.allowReconnection(client, 3);
+      const newClient = await this.allowReconnection(client, 60);
       logger.info("reconnected! client: " + newClient.id);
 
     } catch (e) {

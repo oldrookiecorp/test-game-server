@@ -25,7 +25,7 @@ export default Arena({
          * Define your room handlers:
          */
         gameServer.define('chat_room', ChatRoom).filterBy(["roomID"]);
-        gameServer.define('lobby_room', MMORoom).filterBy(["progress"]); // Filter room by "progress" (which grid we're wanting to join EX: -1x2)
+        gameServer.define('lobby_room', MMORoom, {allowReconnectionTime: 600}).filterBy(["progress"]); // Filter room by "progress" (which grid we're wanting to join EX: -1x2)
 
     },
 
